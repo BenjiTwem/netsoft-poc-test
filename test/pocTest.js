@@ -11,7 +11,7 @@ describe ("Find Welcome Henry test", () =>  {
   let homePage;
   // Set headless mode
   let options = new Chrome.Options()
-  // options.addArguments("--headless", "--disable-gpu", "--no-sandbox", "--disable-dev-shm-usage");
+  options.addArguments("--headless", "--disable-gpu", "--no-sandbox", "--disable-dev-shm-usage");
   options.excludeSwitches(["enable-logging"]);
   options.addArguments("--window-size=1920,1080");
   options.addArguments("--incognito");
