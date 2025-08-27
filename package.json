@@ -7,11 +7,12 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout 20000"
+    "test": "mocha --timeout 20000 --reporter mocha-junit-reporter --reporter-options mochaFile=TestResults/test-results.xml"
   },
   "dependencies": {
     "chai": "^5.1.2",
     "mocha": "^11.1.0",
+    "mocha-junit-reporter": "^2.2.1",
     "selenium-webdriver": "^4.28.1"
   }
 }

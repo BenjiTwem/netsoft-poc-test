@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.473" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-08-27T02:35:44" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Find Welcome Henry test" timestamp="2025-08-27T02:35:44" tests="1" file="C:\Netsoft\Selenium\netsoft poc test\test\pocTest.js" time="1.472" failures="0">
+    <testcase name="Find Welcome Henry test checks the Welcome Henry text is present" time="1.374" classname="checks the Welcome Henry text is present">
+    </testcase>
+  </testsuite>
+</testsuites>
