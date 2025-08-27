@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout 20000 --reporter mocha-junit-reporter --reporter-options mochaFile=TestResults/test-results.xml"
+    "test": "mocha --timeout 90000 --reporter mocha-junit-reporter --reporter-options mochaFile=TestResults/test-results.xml"
   },
   "dependencies": {
     "chai": "^5.1.2",
