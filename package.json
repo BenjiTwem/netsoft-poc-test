@@ -14,8 +14,5 @@
     "mocha": "^11.1.0",
     "mocha-junit-reporter": "^2.2.1",
     "selenium-webdriver": "^4.28.1"
-  },
-  "devDependencies": {
-    "chromedriver": "^139.0.2"
   }
 }
