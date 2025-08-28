@@ -7,12 +7,14 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout 90000 --reporter mocha-junit-reporter --reporter-options mochaFile=TestResults/test-results.xml"
+    "test": "cross-env MOCHA_FILE=TestResults/test-results.xml mocha --timeout 90000 --reporter mocha-multi --reporter-options spec=-,mocha-junit-reporter=-"
   },
   "dependencies": {
     "chai": "^5.1.2",
     "mocha": "^11.1.0",
     "mocha-junit-reporter": "^2.2.1",
-    "selenium-webdriver": "^4.28.1"
+    "mocha-multi": "^1.1.7",
+    "selenium-webdriver": "^4.28.1",
+    "cross-env": "^10.0.0"
   }
 }
