@@ -16,7 +16,6 @@ describe ("Find Welcome Henry test", () =>  {
   options.excludeSwitches(["enable-logging"]);
   options.addArguments("--window-size=1920,1080");
   options.addArguments("--incognito");
-  options.addArguments("--user-data-dir=/tmp/chrome-test-profile");
   
   
   it ("checks the Welcome Henry text is present", async function() {
@@ -25,7 +24,7 @@ describe ("Find Welcome Henry test", () =>  {
 
     driver = await new Builder().forBrowser(Browser.CHROME).setChromeOptions(options).build();
 
-    // Set 3 second grace period for load times
+    // Set grace period for load times
     await driver.manage().setTimeouts({implicit: 10000});
 
     // Go to log in page
