@@ -11,10 +11,11 @@
   },
   "dependencies": {
     "chai": "^5.1.2",
+    "chromedriver": "^139.0.3",
+    "cross-env": "^10.0.0",
     "mocha": "^11.1.0",
     "mocha-junit-reporter": "^2.2.1",
     "mocha-multi": "^1.1.7",
-    "selenium-webdriver": "^4.28.1",
-    "cross-env": "^10.0.0"
+    "selenium-webdriver": "^4.28.1"
   }
 }

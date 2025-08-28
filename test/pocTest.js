@@ -3,6 +3,7 @@ const HomePage = require("../pages/HomePage");
 const Chrome = require('selenium-webdriver/chrome');
 const logging = require('selenium-webdriver/lib/logging');
 logger = logging.getLogger('webdriver');
+require('chromedriver');
 
 
 describe ("Find Welcome Henry test", () =>  {
